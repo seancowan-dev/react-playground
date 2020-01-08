@@ -1,0 +1,25 @@
+.accordion {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.accordion ul {
+    display: inline-block;
+}
+
+.accordion li {
+    border: 1px solid black;
+    max-width: 500px;
+    background-color: rgb(159, 192, 185);
+    transition: max-height 1s ease-in-out;
+    overflow: hidden;
+}
+
+.closed {
+    max-height: 20px;
+}
+
+.open {
+    max-height: 300px;
+}
